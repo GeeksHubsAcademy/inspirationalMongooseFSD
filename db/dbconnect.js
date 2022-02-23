@@ -16,16 +16,6 @@ const dbconnect = () => {
             } else {
                 console.log("mongodb is connected");
         }});
-
-    // mongoose.connect(uri, {
-    //         useNewUrlParser: true,
-    //         useUnifiedTopology: true
-    // }).then(() => {
-    //         console.log('Conectado a la base de datos');
-    // })
-    // .catch(error => console.log('Error conectandose a la base de datos' + error));
-    // ////////////////////////
-
 }
 
 module.exports = dbconnect;
