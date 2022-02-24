@@ -4,7 +4,7 @@ const dbconnect = () => {
     const mongoose = require("mongoose");
     
     const conn_str = "mongodb+srv://new_user_36:1pUu9uuXQqQiqGfK@dbhive.cu5o7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-
+   //xmfy0ZsDLbKWGeO4
     mongoose.connect(
         conn_str,
         { 
