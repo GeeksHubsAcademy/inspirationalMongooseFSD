@@ -2,7 +2,7 @@ const express=require('express');
 const app=express();
 const cors = require('cors');
 const router = require('./router');
-const port = 3000;
+const port = 5000;
 
 let corsOptions = {//CONFIGURO OPCIONES DE CORS
     origin: "*",
